@@ -14,3 +14,4 @@ const name = await client.getSecret({
 });
 
 console.log(name.secretValue);
+console.log(process.env.TEST_VALUE);
